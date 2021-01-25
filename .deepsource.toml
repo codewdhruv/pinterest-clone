@@ -1,0 +1,18 @@
+version = 1
+
+[[analyzers]]
+name = "ruby"
+enabled = true
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = [
+    "jest",
+    "browser",
+    "jquery"
+  ]
+  style_guide = "google"
+  dialect = "typescript"
